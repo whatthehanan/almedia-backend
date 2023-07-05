@@ -88,7 +88,7 @@ class Offer2Transformer extends OfferTransformer {
 
       if (!isValidOffer) {
         console.warn(
-          `Provider2 - Invalid offer, offerId: ${this.offerData[offer]?.Offer?.campaign_id}`,
+          `Provider2 - Invalid offer, offerId: ${this.offerData[offerId]?.Offer?.campaign_id}`,
         );
       } else {
         result.push(offer);
