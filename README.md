@@ -3,6 +3,7 @@
 ## QUICK START
 
 `npm install`
+
 `npm run test`
 
 ## Solution Description
